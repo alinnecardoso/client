@@ -8,7 +8,6 @@ function App() {
       <Container>
         <Routes />
       </Container>
-
     </BrowserRouter>
 
   );
