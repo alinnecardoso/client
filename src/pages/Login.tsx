@@ -1,6 +1,8 @@
+import Header from "../components/Header";
+
 function Login() {
   return ( 
-    <h1>Login</h1>
+    <Header />
    );
 }
 

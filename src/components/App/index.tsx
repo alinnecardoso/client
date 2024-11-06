@@ -1,11 +1,13 @@
+import { Container } from './styles';
 import Routes from '../../Routes';
 import { BrowserRouter } from 'react-router-dom';
 
 function App() {
   return (
     <BrowserRouter>
-
-          <Routes />
+      <Container>
+        <Routes />
+      </Container>
 
     </BrowserRouter>
 
